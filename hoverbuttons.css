@@ -1,0 +1,67 @@
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+  
+.buttonMid a {
+    position: relative;
+    display: flex;
+    font-size: 1em;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    transition: ease-out;
+    transition-duration: .2s;
+}
+  
+.buttonMid p {
+    margin: 0;
+    position: relative;
+    font-size: 20px;
+}
+
+.lineBottom{
+    height:3px;
+    width: 120px;
+    background-color: #6f6f6f5e;
+    transition: ease-out;
+    transition-duration: .2s;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+  
+.buttonMid svg {
+    transition: 0.2s;
+    position: relative;
+    width: 15px;
+    transition-delay: 0.2s;
+}
+
+.buttonMid:hover svg{
+    transform: translateX(3px);
+}
+
+.buttonMid:hover .lineBottom{
+    background-color: #6f6f6f; 
+    transition: ease-in;
+    transition-duration: .2s;
+} 
+
+.buttonMid a{
+    width: 100%;
+    text-align: center;
+}
+
+.buttonMid{
+    width: 100%;
+    text-align: center;
+}
+
+.buttonMid .lineBottom{
+    position: relative;
+    margin: auto;
+    width: 120px;
+}
