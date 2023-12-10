@@ -1,0 +1,47 @@
+/* body appearence and nav bar */
+@font-face { font-family: Gilroy; src: url('Gilroy-Black.ttf'); } 
+@font-face { font-family: GilroyIt; src: url('Gilroy-BlackItalic.ttf'); } 
+
+*{
+    margin: 0px;
+    background-color: #090909;
+    color: #6F6F6F;
+    font-family: Gilroy;
+    overflow-x: hidden;
+}
+
+nav{
+    position: fixed;
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    z-index: 10;
+    background-color: transparent;
+}
+
+nav img{
+    width: auto;
+    height: 40%;
+    position: relative;
+}
+
+.menu{
+    top: 36px;
+    position: relative;
+}
+
+.menu{
+    height: 15%;
+    position: absolute;
+    left: 40px;
+}
+
+.sign{
+    position: relative;
+    transform: translateX(5px);
+    height: 30%;
+    width: auto;
+    background-color: transparent;
+}

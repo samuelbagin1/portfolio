@@ -1,0 +1,53 @@
+nav{
+    background-image: linear-gradient(to bottom, #111111, #00000000); 
+    background-color: transparent;
+}
+
+.menu{
+    background-color: transparent;
+}
+
+.gridDiv{
+    display: grid;
+    position: relative;
+    width: 100%;
+    gap: 50px;
+}
+
+.col{
+    color: #b4b4b4;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 40vh;
+    align-items: center;
+    display: flex;
+    padding-left: 50px;
+    font-size: 10vw;
+    text-decoration: none;
+}
+
+.linkedIn{
+    background-image: linear-gradient(to right, #1d0c8f, #3590a400); 
+    background-color: transparent;
+}
+
+.instagram{
+    background-image: linear-gradient(to right, red, rgba(0, 0, 255, 0.457), rgba(0, 0, 255, 0)); 
+    background-color: transparent;
+}
+
+.email{
+    background-image: linear-gradient(to right, red, #220b3400); 
+    background-color: transparent;
+}
+
+.twitter{
+    background-image: linear-gradient(to right, #151515, #2a2a2a00); 
+    background-color: transparent;
+}
+
+@media only screen and (max-width: 600px){
+    .col{
+        height: 20vh;
+    }
+}

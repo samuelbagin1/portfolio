@@ -1,0 +1,31 @@
+@font-face { font-family: Gilroy; src: url('Gilroy-Black.ttf'); } 
+@font-face { font-family: GilroyIt; src: url('Gilroy-BlackItalic.ttf'); } 
+
+*{
+    margin: 0px;
+    background-color: #090909;
+    color: #6F6F6F;
+    font-family: Gilroy;
+    overflow-x: hidden;
+}
+
+body{
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    overscroll-behavior: none;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+
+a{
+    position: relative;
+    font-size: 10vw;
+    margin: 70px;
+}

@@ -1,51 +1,10 @@
-@font-face { font-family: Gilroy; src: url('Gilroy-Black.ttf'); } 
-@font-face { font-family: GilroyIt; src: url('Gilroy-BlackItalic.ttf'); } 
-
-*{
-    margin: 0px;
-    background-color: #090909;
-    color: #6F6F6F;
-    font-family: Gilroy;
-    overflow-x: hidden;
-}
-
-nav{
-    position: fixed;
-    display: flex;
-    height: 10vh;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    z-index: 10;
-    background-color: transparent;
-}
-
-nav img{
-    width: auto;
-    height: 40%;
-    position: relative;
-}
-
-.menu{
-    height: 15%;
-    position: absolute;
-    left: 20px;
-}
-
-.sign{
-    position: relative;
-    transform: translateX(5px);
-    height: 30%;
-    width: auto;
-    background-color: transparent;
-}
-
 .backGrad{
     position: relative;
-    top: 20%;
     width: 100%;
     z-index: 0;
     height: 100vh;
+    object-fit: cover;
+    opacity: .5;
 }
 
 
@@ -83,7 +42,7 @@ nav img{
     font-size: 1.8em;
     position: relative;
     padding: 30px;
-    height: 80vh;
+    height: 150vh;
 }
 
 .text1, .text2{
@@ -124,7 +83,10 @@ nav img{
     .linkSocial{
         gap: 50px;
     }
+
 }
+
+
 
 .backPhoto{
     /*height: 100vh;
@@ -185,7 +147,7 @@ nav img{
 .linkSocial{
     display: flex;
     position: absolute;
-    bottom: 10px;
+    bottom: 20px;
     z-index: 2;
     align-items: center;
     background-color: transparent;
@@ -204,5 +166,36 @@ nav img{
     transition: ease-in;
 }
 
+.helloClass{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.318);
+    font-size: 50vw;
+    mix-blend-mode: overlay;
+    top: 0;
+    background-color: transparent;
+}
 
+.helloClass1{
+    display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+    .helloClass{
+        display: none;
+    }
+
+    .helloClass1{
+        display: block;
+        transform: rotate(90deg);
+        position: absolute;
+        color: rgba(255, 255, 255, 0.318);
+        font-size: 50vh;
+        mix-blend-mode: overlay;
+        top: 80px;
+        background-color: transparent;
+        left: -400px;
+    }
+
+    
+}
 
